@@ -1,0 +1,81 @@
+* {
+	font-family: monospace, sans;
+  font-size: 20px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+@import "{{ site.theme }}";
+
+header {
+  display: none;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(222, 209, 209);
+  color: grey;
+}
+img {
+  border-radius: 100px;
+  border-style: ridge;
+  border-color: black;
+}
+
+#container {
+    margin: 0 auto;
+    width: 60%;
+}
+#accordion input {
+	display: none;
+}
+#accordion label {
+	background: #eee;
+  color: black;
+	border-radius: 1em;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: 1em 1em;
+	z-index: 20;
+  border-color: black;
+}
+#accordion label:hover {
+	background: rgb(222, 209, 209);
+}
+#accordion input:checked + label {
+	background: grey;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: white;
+	margin-bottom: 0;
+}
+#accordion article {
+	background: white;
+	height:0px;
+	overflow:hidden;
+	z-index:10;
+}
+#accordion article ol {
+	padding: 1em;
+}
+#accordion article p {
+	padding: 1em;
+}
+#accordion article table, th, td{
+      align: center;
+      text-align: center;
+      border: 1px solid black;
+      border-collapse: collapse;
+      margin: 10px;
+      padding: 15px;
+}
+
+#accordion input:checked ~ article {
+	border-bottom-left-radius: .75em;
+	border-bottom-right-radius: .75em;
+	height: auto;
+	margin-bottom: .75em;
+}
