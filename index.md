@@ -7,7 +7,7 @@
       <center>
         <br>
         <div >
-          <img src="https://media-exp1.licdn.com/dms/image/C5603AQGVzjzBIYrcyA/profile-displayphoto-shrink_200_200/0?e=1586390400&v=beta&t=qlHY8PQJbZbsiNCY6Mg9L2LOqesyES0WnfNx0YEPbvY">
+          <img src="https://avatars3.githubusercontent.com/u/54920066?s=460&u=b47f399f04b413bd28d1d154d6be9672e7d3690d&v=4">
         </div>
         <div style = "color: black; font-size: 40px;">
           Yasser Dbeis
