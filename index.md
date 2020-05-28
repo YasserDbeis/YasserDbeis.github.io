@@ -7,7 +7,7 @@
       <center>
         <br>
         <div >
-          <img src="https://avatars3.githubusercontent.com/u/54920066?s=460&u=b47f399f04b413bd28d1d154d6be9672e7d3690d&v=4" width="100" height="100">
+          <img src="https://avatars3.githubusercontent.com/u/54920066?s=460&u=b47f399f04b413bd28d1d154d6be9672e7d3690d&v=4" width="200" height="200">
         </div>
         <div style = "color: black; font-size: 40px;">
           Yasser Dbeis
